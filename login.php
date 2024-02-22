@@ -55,9 +55,8 @@
             $_SESSION['username'] = $_POST['username'];
             $_SESSION['email'] = $_POST['email'];
 
-            // Redirect ke halaman pembayaran
+            // Redirect ke halaman beranda
             header("Location: index.php");
-            exit();
         } else {
             echo "
         <script>
